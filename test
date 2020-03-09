@@ -1,0 +1,6 @@
+@Test
+	public void testEncryptCaesar2() {
+		assertEquals("YV]] 1V'V#*V#*_V",CryptoManager.encryptCaesar("HELLO EVERYONE", 17));
+		assertEquals("XZSIF^%RTWSNSL", CryptoManager.encryptCaesar("SUNDAY MORNING", 5));
+		
+	}
